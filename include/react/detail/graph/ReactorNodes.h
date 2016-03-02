@@ -245,7 +245,7 @@ private:
     std::function<void(TContext)>    func_;
 
     PullT   mainLoop_;
-    TurnT*  turnPtr_;
+    TurnT*  turnPtr_ = nullptr;
 
     PushT*  curOutPtr_ = nullptr;
 
