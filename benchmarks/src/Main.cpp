@@ -7,7 +7,9 @@
 //#define REACT_ENABLE_LOGGING
 
 #include "tbb/tick_count.h"
+#if _MSC_VER
 #include "tbb/tbbmalloc_proxy.h"
+#endif
 
 //#include "ittnotify.h"
 
@@ -129,8 +131,9 @@ void runBenchmarkLifeSim(std::ostream& out)
     //RUN_BENCHMARK(std::cout, 1, Benchmark_LifeSim, BenchmarkParams_LifeSim(250, 30, 10000),
     //    SourceSetDomain, PulsecountDomain);
 
-    RUN_BENCHMARK(out, 1, Benchmark_LifeSim, BenchmarkParams_LifeSim(100, 15, 10000),
-        ToposortSTDomain, ToposortDomain, PulsecountDomain);
+    // Still need to fix a static assertion for the destination domain...
+//  RUN_BENCHMARK(out, 1, Benchmark_LifeSim, BenchmarkParams_LifeSim(100, 15, 10000),
+//      ToposortSTDomain, ToposortDomain, PulsecountDomain);
 
     //RUN_BENCHMARK(out, 3, Benchmark_LifeSim, BenchmarkParams_LifeSim(100, 50, 100),
     //    PulsecountDomain, PulsecountDomain);
