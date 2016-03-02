@@ -349,3 +349,4 @@ private:
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_GRAPH_CONTINUATIONNODES_H_INCLUDED
+

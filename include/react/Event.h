@@ -845,3 +845,4 @@ bool Equals(const Events<D,L>& lhs, const Events<D,R>& rhs)
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_EVENT_H_INCLUDED
+

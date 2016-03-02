@@ -208,3 +208,4 @@ struct NodeUpdateTimerEnabled<ToposortEngine<parallel_propagation>> : std::true_
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_ENGINE_TOPOSORTENGINE_H_INCLUDED
+

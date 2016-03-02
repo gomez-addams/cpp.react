@@ -58,3 +58,4 @@ struct IInputNode
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif //REACT_DETAIL_IREACTIVENODE_H_INCLUDED
+

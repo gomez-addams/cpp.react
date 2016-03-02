@@ -63,3 +63,4 @@ protected:
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_SIGNALBASE_H_INCLUDED
+

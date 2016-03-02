@@ -263,3 +263,4 @@ public:
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_DOMAINBASE_H_INCLUDED
+

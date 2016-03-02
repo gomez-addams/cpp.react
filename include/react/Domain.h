@@ -462,3 +462,4 @@ void AsyncTransaction(TransactionFlagsT flags, TransactionStatus& status, F&& fu
     using ReactorT = Reactor<name>;
 
 #endif // REACT_DOMAIN_H_INCLUDED
+

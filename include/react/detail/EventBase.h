@@ -51,3 +51,4 @@ protected:
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_EVENTBASE_H_INCLUDED
+

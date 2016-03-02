@@ -165,3 +165,4 @@ struct Benchmark_Grid : public BenchmarkBase<D>
         return d;
     }
 };
+

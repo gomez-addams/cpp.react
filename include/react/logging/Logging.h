@@ -29,3 +29,4 @@ struct IEventRecord
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_LOGGING_LOGGING_H_INCLUDED
+

@@ -282,3 +282,4 @@ auto ChangedTo(const Signal<D,S>& target, V&& value)
 /******************************************/ REACT_END /******************************************/
 
 #endif // REACT_ALGORITHM_H_INCLUDED
+

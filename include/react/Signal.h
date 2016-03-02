@@ -951,3 +951,4 @@ bool Equals(const Signal<D,L>& lhs, const Signal<D,R>& rhs)
             }))
 
 #endif // REACT_SIGNAL_H_INCLUDED
+

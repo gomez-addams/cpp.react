@@ -322,3 +322,4 @@ struct Benchmark_Random : public BenchmarkBase<D>
         return d;
     }
 };
+

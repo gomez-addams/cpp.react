@@ -338,3 +338,4 @@ auto Observe(const Events<D,E>& subject,
 /******************************************/ REACT_END /******************************************/
 
 #endif // REACT_OBSERVER_H_INCLUDED
+

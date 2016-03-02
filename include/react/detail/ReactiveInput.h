@@ -986,3 +986,4 @@ public:
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_REACTIVEINPUT_H_INCLUDED
+

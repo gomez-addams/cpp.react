@@ -84,3 +84,4 @@ struct Benchmark_Fanout : public BenchmarkBase<D>
 };
 
 #endif // CPP_REACT_BENCHMARK_FANOUT_H
+

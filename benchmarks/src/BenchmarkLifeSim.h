@@ -323,3 +323,4 @@ struct Benchmark_LifeSim : public BenchmarkBase<D>
         return d;
     }
 };
+

@@ -110,3 +110,4 @@ private:
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_COMMON_REF_COUNTING_H_INCLUDED
+

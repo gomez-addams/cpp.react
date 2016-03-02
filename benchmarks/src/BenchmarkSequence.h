@@ -77,3 +77,4 @@ struct Benchmark_Sequence : public BenchmarkBase<D>
         return d;
     }
 };
+

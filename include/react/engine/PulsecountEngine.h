@@ -145,3 +145,4 @@ struct NodeUpdateTimerEnabled<PulsecountEngine<parallel_propagation>> : std::tru
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_ENGINE_PULSECOUNTENGINE_H_INCLUDED
+

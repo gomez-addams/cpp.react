@@ -47,3 +47,4 @@ private:
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_ENGINEBASE_H_INCLUDED
+

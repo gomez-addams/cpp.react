@@ -192,3 +192,4 @@ struct NodeUpdateTimerEnabled<SubtreeEngine<parallel_propagation>> : std::true_t
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_ENGINE_SUBTREEENGINE_H_INCLUDED
+

@@ -322,3 +322,4 @@ private:
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_COMMON_CONCURRENCY_H_INCLUDED
+

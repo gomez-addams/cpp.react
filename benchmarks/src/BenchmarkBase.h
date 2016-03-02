@@ -136,3 +136,4 @@ void RunBenchmarkClass(const char* name, std::ostream& out, const TParams& param
 
 #define RUN_BENCHMARK(out, runCount, benchmarkClass, params, ...) \
     RunBenchmarkClass<runCount, benchmarkClass, decltype(params), __VA_ARGS__>(#benchmarkClass, out, params)
+

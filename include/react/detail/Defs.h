@@ -60,3 +60,4 @@ using std::size_t;
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_DEFS_H_INCLUDED
+

@@ -166,3 +166,4 @@ struct DecayInput<EventSource<D,T>> { using Type = Events<D,T>; };
 /******************************************/ REACT_END /******************************************/
 
 #endif // REACT_TYPETRAITS_H_INCLUDED
+

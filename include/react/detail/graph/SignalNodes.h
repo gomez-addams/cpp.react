@@ -384,3 +384,4 @@ private:
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_GRAPH_SIGNALNODES_H_INCLUDED
+

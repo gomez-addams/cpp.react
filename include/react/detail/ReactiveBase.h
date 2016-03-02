@@ -156,3 +156,4 @@ const std::shared_ptr<TNode>& GetNodePtr(const ReactiveBase<TNode>& node)
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_REACTIVEBASE_H_INCLUDED
+

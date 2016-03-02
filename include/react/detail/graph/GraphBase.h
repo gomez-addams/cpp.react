@@ -281,3 +281,4 @@ using EventEmitter = std::back_insert_iterator<std::vector<E>>;
 /****************************************/ REACT_IMPL_END /***************************************/
 
 #endif // REACT_DETAIL_GRAPH_GRAPHBASE_H_INCLUDED
+
