@@ -35,7 +35,7 @@ namespace example1
 
     ReactorT loop
     {
-        [&] (ReactorT::Context ctx)
+        [] (ReactorT::Context ctx)
         {
             PathT points;
 
@@ -101,7 +101,7 @@ namespace example2
 
     ReactorT loop
     {
-        [&] (ReactorT::Context ctx)
+        [] (ReactorT::Context ctx)
         {
             PathT points;
 

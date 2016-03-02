@@ -15,7 +15,7 @@ using std::chrono::microseconds;
 /// EventLog
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 EventLog::Entry::Entry() :
-    time_{ std::chrono::system_clock::now() },
+    time_{ std::chrono::high_resolution_clock::now() },
     data_{ nullptr }
 {
 }
@@ -27,7 +27,7 @@ EventLog::Entry::Entry(const Entry& other) :
 }
 
 EventLog::Entry::Entry(IEventRecord* ptr) :
-    time_{ std::chrono::system_clock::now() },
+    time_{ std::chrono::high_resolution_clock::now() },
     data_{ ptr }
 {
 }
@@ -54,7 +54,7 @@ bool EventLog::Entry::Equals(const Entry& other) const
 }
 
 EventLog::EventLog() :
-    startTime_(std::chrono::system_clock::now())
+    startTime_(std::chrono::high_resolution_clock::now())
 {
 }
 
