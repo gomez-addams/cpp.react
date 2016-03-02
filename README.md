@@ -48,6 +48,7 @@ C++React has been tested with the following compilers:
 * Visual Studio 2013.2
 * GCC 4.8.2
 * Clang 3.4
+* Apple LLVM version 7.3.0 (clang-703.0.16.1)
 
 To build with Visual Studio, use the pre-made solution found in `project/msvc/`.
 
